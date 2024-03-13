@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EscenaPincipalController">
+   <children>
+      <Button fx:id="perbt" layoutX="606.0" layoutY="122.0" mnemonicParsing="false" onAction="#btnnewPers" prefHeight="39.0" prefWidth="146.0" text="NUEVO PERSONAJE " />
+      <Label layoutX="67.0" layoutY="14.0" prefHeight="39.0" prefWidth="278.0" text="PROGRAMA BARAJAR">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="armbt" layoutX="607.0" layoutY="258.0" mnemonicParsing="false" onAction="#btnnewArm" prefHeight="39.0" prefWidth="146.0" text="NUEVA ARMA" />
+      <Button fx:id="habbtn" layoutX="608.0" layoutY="393.0" mnemonicParsing="false" onAction="#btnnewHab" prefHeight="39.0" prefWidth="146.0" text="NUEVA HABITACIÓN" />
+      <Button fx:id="barabtn" layoutX="608.0" layoutY="499.0" mnemonicParsing="false" onAction="#btnBarajar" prefHeight="39.0" prefWidth="146.0" text="BARAJAR" />
+      <TextField fx:id="txnpers" layoutX="598.0" layoutY="68.0" onAction="#btnnewPers" promptText="Nombre personaje" />
+      <TextField fx:id="txtnarm" layoutX="599.0" layoutY="204.0" onAction="#btnnewArm" promptText="Nombre Arma" />
+      <TextField fx:id="txtnhab" layoutX="600.0" layoutY="339.0" onAction="#btnnewHab" promptText="Nombre habitación" />
+      <TableView fx:id="tablaNombre" layoutX="36.0" layoutY="90.0" prefHeight="414.0" prefWidth="182.0">
+        <columns>
+          <TableColumn fx:id="nombreCL" prefWidth="181.0" text="Nombre" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tablaArma" layoutX="218.0" layoutY="90.0" prefHeight="414.0" prefWidth="182.0">
+         <columns>
+            <TableColumn fx:id="armaCL" prefWidth="181.0" text="Arma" />
+         </columns>
+      </TableView>
+      <TableView fx:id="tablaHabitacion" layoutX="400.0" layoutY="90.0" prefHeight="414.0" prefWidth="182.0">
+         <columns>
+            <TableColumn fx:id="habitacionCL" prefWidth="181.0" text="Habitación" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

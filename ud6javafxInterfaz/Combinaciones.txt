@@ -1,0 +1,10 @@
+Cabecera - Fecha: 2024-03-13
+Jugador [nombre=[Mimi], arma=[pesa], habitación=[observatorio], horaPartida=15:17:36.879840]
+Cabecera - Fecha: 2024-03-13
+Jugador [nombre=[Prado], arma=[candelabro], habitación=[comedor], horaPartida=15:17:42.701412]
+Cabecera - Fecha: 2024-03-13
+Jugador [nombre=[Mimi], arma=[bate], habitación=[terraza], horaPartida=15:17:46.471916]
+Cabecera - Fecha: 2024-03-13
+Jugador [nombre=[Mora], arma=[cuerda], habitación=[observatorio], horaPartida=15:17:48.713595]
+Cabecera - Fecha: 2024-03-13
+Jugador [nombre=[Noa], arma=[trofeo], habitación=[comedor], horaPartida=15:17:51.476346]
